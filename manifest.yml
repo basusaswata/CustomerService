@@ -1,0 +1,10 @@
+instances: 1
+memory: 1G
+applications:
+  - name: cust
+    host: cust
+    services:
+      - cust-config-server
+    path: ./target/CustomerService-0.0.1-SNAPSHOT.jar
+    env:
+      SPRING_PROFILES_ACTIVE: stage
