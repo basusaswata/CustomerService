@@ -7,4 +7,4 @@ applications:
       - rmw
     path: ./target/CustomerService-0.0.1-SNAPSHOT.jar
     env:
-      SPRING_PROFILES_ACTIVE: stage 
+      SPRING_PROFILES_ACTIVE: stage  
